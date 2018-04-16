@@ -4,7 +4,8 @@ class Err2 < Err1; end
 begin
 raise Err2
 rescue => e
-  puts "StandardError"
+  puts e.class
+#  puts "StandardError"
 rescue Err2 => ex
   puts ex.class
 end
