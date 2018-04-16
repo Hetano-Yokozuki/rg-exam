@@ -1,6 +1,6 @@
 begin
  1/0
-rescue => e
+rescue StandardError => e
  p "an error has occuerred"
  p e
  p e.message
