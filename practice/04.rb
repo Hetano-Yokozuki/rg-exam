@@ -2,7 +2,7 @@ class Err1 < StandardError; end
 class Err2 < Err1; end
 
 begin
-raise Err2
+raise 
 rescue => e
   puts e.class
 #  puts "StandardError"
