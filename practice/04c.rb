@@ -12,3 +12,9 @@ end
 
 hoge = Err2.new
 hoge.test
+
+begin
+  raise
+   rescue => e 
+   p e.class
+end 
