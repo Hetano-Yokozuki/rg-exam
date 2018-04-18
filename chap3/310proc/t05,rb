@@ -1,0 +1,7 @@
+def sokubaku x
+    p x + 2
+end
+
+sokubaku(3){z = 100}
+
+p z
