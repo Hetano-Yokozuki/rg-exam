@@ -1,0 +1,5 @@
+require 'stringio'
+
+moji = StringIO.new
+p moji
+p moji.class
