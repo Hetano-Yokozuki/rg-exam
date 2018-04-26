@@ -1,0 +1,3 @@
+x = ["abc","defg","hijkl"]
+p x.sort{|a,b| b.size<=>a.size}
+p x.sort{|a,b| a.size - b.size}
